@@ -1,0 +1,42 @@
+.cont{
+    position: absolute; 
+    top: 5rem; 
+    background-color: rgba(255, 255, 255, 0.907);
+    color: #e33745;
+    max-width: 13rem;
+    box-shadow: -4px 5px 5px 1px rgba(35, 35, 35, 0.382);
+    width: 92%;
+    border-radius: 10px;
+    opacity: 2;
+    animation: animateNoti 2s;
+}
+.body{
+    text-align: center;
+    padding: 0.4rem 0.6rem;
+    font-weight: 500;
+}
+.circles{
+    max-width: 10rem;
+    width: 8rem;
+    height: 8rem;
+    font-size: 2rem;
+}
+.circlesim img{
+    width: 10rem;
+    height: 10rem;
+}
+.circlesim{
+    text-align: center;
+}
+.circlesim h3{
+    padding: 0.8rem 0.4rem;
+    font-size: 1.4rem;
+    color: rgba(105, 105, 105, 0.685);
+}
+@keyframes animateNoti {
+    from{top:7.5rem;
+        opacity: 10;
+    }
+    to{top:5.4rem;
+    opacity:0}
+}

@@ -1,0 +1,41 @@
+.loadcont{
+    width: 90%;
+    margin: auto;
+    height: 10rem;
+    padding: 10px 10px 0px 10px;
+    border: 0.1px solid rgba(128, 128, 128, 0.678);
+    box-shadow: 0px 1px 2px 1px #0a0a0a6f;
+    border-radius: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.loadcont ul li{
+    width: 60%;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    animation: loading 1s linear infinite alternate;
+    list-style: none;
+}
+.label{
+    width: 40%;
+    height: 17px;
+    border-radius: 5px;
+    animation: loading 1s linear infinite alternate;
+}
+.total{
+    animation: loading 1s linear infinite alternate;
+    text-align: right;
+    padding: 2rem 0.8rem;
+    margin: 40px -10px;
+}
+
+@keyframes loading {
+    0%{
+        background-color: hsla(0, 0%, 27%, 0.315);
+    }
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}

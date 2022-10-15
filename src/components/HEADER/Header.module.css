@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Libre+Baskerville&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pacifico&family=Poppins:wght@100;300;500&family=Roboto+Condensed:wght@300&family=Rubik&family=Rubik+Dirt&display=swap');
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #E33745;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 27rem;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: 3rem;
+    background-color: #E33745;
+  }
+  .sign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sign p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    padding: 4px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #3e0f13b3;
+  }
+  .sign p:hover{
+    border-radius: 5px;
+    background-color: #3e1a1db3;
+  }
+  .main-image div {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+  .main-image div h2{
+    color: rgba(255, 255, 255, 0.586);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    padding-top: 12rem;
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  .name_profile{
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+  }
+
+  .profile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1.3rem;
+    cursor: pointer;
+    max-width:20rem;
+    font-size: 2rem;
+  }
+  .profile:hover{
+    color: rgba(255, 255, 255, 0.715);
+  }
+  .profile .ip{
+    font-size: 1.8rem;
+    color: rgb(218, 218, 218);
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.177);
+    border-radius: 50%;
+    background-color: rgba(218, 218, 218, 0.295);
+  }
+
+  a{
+    color: white;
+  }
+  a:hover{
+    color: rgba(255, 255, 255, 0.923);
+  }
+  @media (max-width:600px) {
+    .profile{
+      margin-left: 0.7rem;
+    }
+    .name_profile{
+      display: none;
+    }
+    .profile .ip{
+      font-size: 1.8rem;
+    }
+    .header{
+      padding: 0 4%;
+    }
+  }

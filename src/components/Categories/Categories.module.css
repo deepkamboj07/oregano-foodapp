@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100;500&family=Roboto+Condensed:wght@300&family=Rubik&display=swap');
+.contmain{
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.contmain h3{
+    font-family: 'Poppins', sans-serif;
+}
+.item{
+    max-width: 18rem;
+    max-height: 18rem;
+    margin: 1rem 3rem;
+}
+.imgcont{
+    max-width: 18rem;
+    max-height: 18rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next{
+    max-width: 18rem;
+    max-height: 18rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.next span{
+    border-radius: 100%;
+    border: 2px solid white;
+    padding:0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e33745c5;
+    box-shadow: 7px 6px 10px 3px rgba(78, 78, 78, 0.712);
+    cursor: pointer;
+    color: white;
+    animation: transform 0.6s;
+}
+
+.next span:hover{
+    transform: scale(1.1);
+}
+.imgcont div{
+    border-radius: 100%;
+    padding: 0.1rem;
+    width: 13rem;
+    height: 13rem;
+    cursor: pointer;
+    background-size:cover;
+    background-position: center;
+}
+.imgcont div:hover{
+    animation: aniimg 0.5s;
+    box-shadow: 7px 6px 10px 3px rgba(78, 78, 78, 0.712);
+    transform: scale(1.05);
+}
+.textcont{
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes aniimg {
+    from{box-shadow: 0 white;
+        transform: scale(1.0)
+    }
+    to{
+        transform: scale(1.05);
+    }
+}

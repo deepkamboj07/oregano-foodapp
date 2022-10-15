@@ -1,0 +1,74 @@
+#btn{
+    background-color: #E33745;
+    color: white;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+#btn2{
+    background-color: #E33745;
+    color: white;
+    width: 50%;
+    margin-top: 1rem;
+}
+#form-cont input{
+    max-width: 30rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+#form-cont{
+    text-align: center;
+}
+#regis-cont{
+    padding: 0px 2rem;
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+#regis-cont2{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.btn__hover__{
+    padding: 4px 13px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn__hover__:hover{
+    border-radius: 10px;
+    color:  #E33745;
+}
+.or-dash{
+    padding: 1rem 0.3rem;
+    padding-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-dash div{
+    width: 100%;
+    height: 0.1px;
+    margin: 0px 10px;
+    background-color: rgba(87, 87, 87, 0.737);
+}
+#ggle_{
+    max-width: 2rem;
+    width: 50%;
+}
+
+.btn-google{
+    padding: 5px 15px!important;
+    border-radius: 15px;
+}
+.btn-google:hover{
+    border:  0.5px solid black !important;
+}
+#error-in{
+    padding: 7px 3px;
+    color: #E33745;
+    font-size: 14px;
+}
+.spin{
+    margin-top: 20px;
+}

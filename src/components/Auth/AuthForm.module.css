@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Rubik&display=swap');
+.authContainer{
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom:1px solid #E33745;
+    border-right: 1px solid #E33745;
+}
+.authContainer h3{
+    font-family: 'Times New Roman', Times, serif;
+}

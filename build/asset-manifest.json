@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/oregano-foodapp/static/css/main.11be8e63.chunk.css",
+    "main.js": "/oregano-foodapp/static/js/main.8a36c088.chunk.js",
+    "main.js.map": "/oregano-foodapp/static/js/main.8a36c088.chunk.js.map",
+    "runtime-main.js": "/oregano-foodapp/static/js/runtime-main.9678b4a9.js",
+    "runtime-main.js.map": "/oregano-foodapp/static/js/runtime-main.9678b4a9.js.map",
+    "static/js/2.532d6c2d.chunk.js": "/oregano-foodapp/static/js/2.532d6c2d.chunk.js",
+    "static/js/2.532d6c2d.chunk.js.map": "/oregano-foodapp/static/js/2.532d6c2d.chunk.js.map",
+    "index.html": "/oregano-foodapp/index.html",
+    "static/css/main.11be8e63.chunk.css.map": "/oregano-foodapp/static/css/main.11be8e63.chunk.css.map",
+    "static/js/2.532d6c2d.chunk.js.LICENSE.txt": "/oregano-foodapp/static/js/2.532d6c2d.chunk.js.LICENSE.txt",
+    "static/media/cover_oregano.8fbc51a9.jpg": "/oregano-foodapp/static/media/cover_oregano.8fbc51a9.jpg",
+    "static/media/google_png.6d9ed119.png": "/oregano-foodapp/static/media/google_png.6d9ed119.png",
+    "static/media/sucess.d8155e60.png": "/oregano-foodapp/static/media/sucess.d8155e60.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9678b4a9.js",
+    "static/js/2.532d6c2d.chunk.js",
+    "static/css/main.11be8e63.chunk.css",
+    "static/js/main.8a36c088.chunk.js"
+  ]
+}

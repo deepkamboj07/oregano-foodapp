@@ -1,0 +1,11 @@
+.error_cont{
+    position:absolute;
+    top: -5rem;
+    right: -5rem;
+    max-width: 20rem;
+    width: 50%;
+    background-color: white;
+    color: red;
+    height: fit-content;
+    padding: 10px 20px;
+}

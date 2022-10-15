@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Rubik&display=swap');
+.splash{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.212);
+    background-color: #e33745;
+}
+.imgcont{
+    text-align: center;
+    align-items: center;
+}
+.splash img{
+    margin: 50px;
+    max-width: 20rem;
+    width: 70%;
+}
+.splash h1{
+    margin-top: -5.8rem;
+    font-size: 7.4rem;
+    padding: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    animation: animate 2s;
+}
+@keyframes animate {
+    from{font-size: 2.4rem;}
+    to{font-size: 7.4rem;}
+}

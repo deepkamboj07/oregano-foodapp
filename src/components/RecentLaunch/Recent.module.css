@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100;500&family=Roboto+Condensed:wght@300&family=Rubik&display=swap');
+.contmain{
+    padding: 2rem 0;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}

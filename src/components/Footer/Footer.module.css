@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@1,9..144,100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto+Condensed:wght@300&family=Rubik&display=swap');
+.footer{
+    max-height: 60rem;
+    height: 90%;
+    width: auto;
+    color: black;
+    background-color: rgba(220, 220, 220, 0.937);
+    padding: 3rem 12rem 0.4rem 12rem;
+}
+.footerhead{
+    width: 100%;
+}
+.footerhead h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    width: auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.line{
+    margin-top: 1.4rem;
+    border-bottom: 2px solid #e337459e;
+}
+.main h5{
+    padding: 8px 0;
+    font-size: 1.0rem;
+    color: rgba(0, 0, 0, 0.64);
+}
+.list p{
+    margin-top: -10px;
+    font-size: 0.9rem;
+}
+.social{
+    display: flex;
+}
+.social div{
+    padding: 0 0.5rem;
+    cursor: pointer;   
+}
+.social div:hover{
+    color: #e337459e;
+}
+.social div i{
+    font-size: 1.3rem;
+}
+button{
+    margin-top: 0.5rem;
+}
+
+@media(max-width:700px) {
+    .footer{
+        padding: 0rem 3rem;
+    }
+}

@@ -1,0 +1,52 @@
+.maincont{
+    padding: 0.5rem;
+}
+.id{
+    padding: 0.5rem 0rem;
+}
+.itemcont{
+    width: 90%;
+    margin: auto;
+    padding: 10px 10px 0px 10px;
+    border: 0.1px solid rgba(128, 128, 128, 0.678);
+    box-shadow: 0px 1px 2px 1px #0a0a0a6f;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.itemcont ul{
+    border-radius: 8px;
+    padding: 0.5rem;
+  
+}
+label{
+    font-weight: 500;
+}
+.itemcont li{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    background-color: rgba(168, 168, 168, 0.125);
+    border-top: 0.5px solid #e33745;
+    text-align: right;
+    padding: 0.4rem 0.8rem;
+    margin: 0 -10px;
+}
+.info{
+    font-size: 13px;
+}
+.notfound{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 1rem;
+}
+.notfound h4{
+    padding: 2rem;
+    margin: auto;
+    width: 40rem;
+    background-color: #e337455d;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.296);
+}
