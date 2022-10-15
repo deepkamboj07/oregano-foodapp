@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oregano-foodapp/static/css/main.11be8e63.chunk.css",
-    "main.js": "/oregano-foodapp/static/js/main.aa3698e7.chunk.js",
-    "main.js.map": "/oregano-foodapp/static/js/main.aa3698e7.chunk.js.map",
+    "main.js": "/oregano-foodapp/static/js/main.4e279229.chunk.js",
+    "main.js.map": "/oregano-foodapp/static/js/main.4e279229.chunk.js.map",
     "runtime-main.js": "/oregano-foodapp/static/js/runtime-main.9678b4a9.js",
     "runtime-main.js.map": "/oregano-foodapp/static/js/runtime-main.9678b4a9.js.map",
     "static/js/2.2fbb5f84.chunk.js": "/oregano-foodapp/static/js/2.2fbb5f84.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9678b4a9.js",
     "static/js/2.2fbb5f84.chunk.js",
     "static/css/main.11be8e63.chunk.css",
-    "static/js/main.aa3698e7.chunk.js"
+    "static/js/main.4e279229.chunk.js"
   ]
 }
