@@ -80,8 +80,8 @@ function App() {
 
   return (
     <Routes> 
-      <Route path="/" exact element={<Navigate to="/home" replace />}/>
-      <Route path="/home" exact element={
+      <Route path="/" exact element={<Navigate to="/oregano-foodapp/home" replace />}/>
+      <Route path="/oregano-foodapp/home" exact element={
         <Fragment>
           <Header/>
           {splash && <SplashScreen/>}
