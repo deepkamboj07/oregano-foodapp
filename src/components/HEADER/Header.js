@@ -26,7 +26,7 @@ const Header=(props)=>{
     const first=userName.split(' ')[0];
     return <Fragment>
         <header className={Classes.header}>
-            <Link to='/'><h1>Oregano</h1></Link>
+            <Link to='/oregano-foodapp'><h1>Oregano</h1></Link>
             <div className={Classes.sign}>
                 {isLogedin && <CartButton/>}
                 {!isLogedin && <p onClick={openForm}>SignIn</p>}

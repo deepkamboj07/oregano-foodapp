@@ -80,15 +80,21 @@ function App() {
 
   return (
     <Routes> 
-      <Route path="/" exact element={<Navigate to="/oregano-foodapp/home" replace />}/>
-      <Route path="/oregano-foodapp/home" exact element={
+      <Route path="/"  element={
         <Fragment>
           <Header/>
           {splash && <SplashScreen/>}
           {!splash && <HomePage/>}
         </Fragment>
       }/>
-      <Route path="/history" element={<Fragment><Header/><History/></Fragment>}/>
+      <Route path="/oregano-foodapp"  element={
+        <Fragment>
+          <Header/>
+          {splash && <SplashScreen/>}
+          {!splash && <HomePage/>}
+        </Fragment>
+      }/>
+      <Route path="/oregano-foodapp/history" element={<Fragment><Header/><History/></Fragment>}/>
       <Route path="*" element={<Fragment><h1>Page Not Found</h1></Fragment>}/>
     </Routes>
   );

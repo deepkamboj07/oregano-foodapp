@@ -16,7 +16,7 @@ const HomeProfile=(props)=>{
     return(
         <div className={Classes.profile_cont}>
             <ul>
-                <Link to='/history'><li><span><i className='bx bx-history'></i>User Account</span></li></Link>
+                <Link to='/oregano-foodapp/history'><li><span><i className='bx bx-history'></i>User Account</span></li></Link>
                 <li onClick={logoutHandler}><span><i className='bx bx-log-out-circle'></i>Logout</span></li>
             </ul>
         </div>
